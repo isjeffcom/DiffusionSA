@@ -1,0 +1,25 @@
+.header{
+  width: 100%;
+  height: 75px;
+  background: var(--header-bg);
+  user-select: none;
+}
+
+.header-cont {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-name {
+  width: 232px;
+  font-size: 32px;
+  font-weight: lighter;
+  background: linear-gradient(90deg, var(--logo-gradient-left) 0%, var(--logo-gradient-right) 100%);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

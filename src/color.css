@@ -1,0 +1,10 @@
+:root {
+  /* Logo */
+  --logo-gradient-left: #FF4848;
+  --logo-gradient-right: #DC52FF;
+
+  /* Background */
+  --main-bg: #0F0F10;
+  --header-bg: #0F0F10;
+  --main-text: #fafafa;
+}

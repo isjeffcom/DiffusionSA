@@ -1,0 +1,46 @@
+@font-face {
+  font-family: DIN;
+  font-weight: lighter;
+  src: url('./assets/fonts/DINPro-Light.ttf');
+}
+
+@font-face {
+  font-family: DIN;
+  font-weight: normal;
+  src: url('./assets/fonts/DINPro.ttf');
+}
+
+@font-face {
+  font-family: DIN;
+  font-weight: medium;
+  src: url('./assets/fonts/DINPro-Medium.ttf');
+}
+
+@font-face {
+  font-family: DIN;
+  font-weight: bold;
+  src: url('./assets/fonts/DINPro-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: DIN;
+  font-weight: bolder;
+  src: url('./assets/fonts/DINPro-Black.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: DIN, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--main-bg);
+  color: var(--main-text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
